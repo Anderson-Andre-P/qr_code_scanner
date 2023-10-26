@@ -170,6 +170,6 @@ If you have any questions or suggestions about the project, please feel free to 
 
 ## :memo: License
 
-This project is licensed under [LICENSE](LICENSE.md). Be sure to read the license file for more details.
+This project is licensed under [LICENSE](LICENSE). Be sure to read the license file for more details.
 
 <a href="#top">Back to top</a>
