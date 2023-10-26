@@ -342,7 +342,7 @@ class _QRHomePageState extends State<QRHomePage>
                 OutlinedButton(
                   onPressed: _showTextDialog,
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.blue,
+                    backgroundColor: const Color(0xFF4B68FF),
                     foregroundColor: Colors.white,
                     elevation: 0,
                     minimumSize: Size(constraints.maxWidth * 0.5, buttonHeight),

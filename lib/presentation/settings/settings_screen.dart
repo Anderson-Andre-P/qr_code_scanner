@@ -95,7 +95,7 @@ class _SettingsPageState extends State<SettingsPage> {
             mainAxisSize: MainAxisSize.min,
             children: [
               Image.asset(
-                'assets/applogo.png',
+                'assets/Logo.png',
                 height: 64,
               ),
               const SizedBox(height: 16),

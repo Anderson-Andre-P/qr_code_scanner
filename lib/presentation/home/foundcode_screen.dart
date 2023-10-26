@@ -148,7 +148,7 @@ class _FoundCodeScreenState extends State<FoundCodeScreen> {
                                   style: const TextStyle(
                                     fontSize: 30,
                                     fontWeight: FontWeight.bold,
-                                    color: Colors.blue,
+                                    color: Color(0xFF4B68FF),
                                   ),
                                 ),
                                 const SizedBox(height: 16),
@@ -201,7 +201,7 @@ class _FoundCodeScreenState extends State<FoundCodeScreen> {
                                           style: const TextStyle(
                                             fontSize: 26,
                                             fontWeight: FontWeight.bold,
-                                            color: Colors.blue,
+                                            color: Color(0xFF4B68FF),
                                           ),
                                         ),
                                         const SizedBox(height: 16),

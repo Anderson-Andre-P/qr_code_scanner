@@ -34,8 +34,8 @@
 //           //       begin: Alignment.topLeft,
 //           //       end: Alignment.bottomRight,
 //           //       colors: theme == AppTheme.light
-//           //           ? [Colors.blue, Colors.purple.shade300]
-//           //           : [Colors.blue.shade800, Colors.purple.shade700],
+//           //           ? [Color(0xFF4B68FF), Colors.purple.shade300]
+//           //           : [Color(0xFF4B68FF).shade800, Colors.purple.shade700],
 //           //     ),
 //           //   ),
 //           // ),

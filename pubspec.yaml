@@ -1,11 +1,10 @@
 name: qr_code_scanner
-description: A QRCode Generator app.
+description: This app is a QR Code generator and reader.
 publish_to: "none"
-version: 1.0.1+2
+version: 1.0.0
 
 environment:
-  sdk: ">=3.0.2 <4.0.0"
-
+  sdk: ">=3.1.4 <4.0.0"
 dependencies:
   flutter:
     sdk: flutter
@@ -19,10 +18,12 @@ dependencies:
   qr_flutter: ^4.1.0
   share_plus: ^7.0.2
   url_launcher: ^6.1.11
+  flutter_native_splash: ^2.3.4
 
 dev_dependencies:
   change_app_package_name: any
   flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
   flutter_test:
     sdk: flutter
 
@@ -30,3 +31,34 @@ flutter:
   uses-material-design: true
   assets:
     - assets/
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: "assets/Logo_splash.png"
+  image_dark: "assets/Logo_splash.png"
+
+  android_12:
+    icon_background_color: "#ffffff"
+    image: "assets/Logo_splash.png"
+    image_dark: "assets/Logo_splash.png"
+
+  web: false
+  fullscreen: true
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/Logo.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/Logo.png"
+    background_color: "#4B68FF"
+    theme_color: "#4B68FF"
+  windows:
+    generate: true
+    image_path: "assets/Logo.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/Logo.png"

@@ -12,14 +12,14 @@ class ScannerErrorWidget extends StatelessWidget {
 
     switch (error.errorCode) {
       case MobileScannerErrorCode.controllerUninitialized:
-        errorMessage = 'Scanner not ready.';
+        errorMessage = 'O Scanner não está pronto.';
         break;
       case MobileScannerErrorCode.permissionDenied:
-        errorMessage = 'Permission denied';
+        errorMessage = 'Permisão negada';
         break;
 
       default:
-        errorMessage = 'Press the stop button and restart!';
+        errorMessage = 'Precione o botão de parada e recomece!';
         break;
     }
 
@@ -37,7 +37,6 @@ class ScannerErrorWidget extends StatelessWidget {
               errorMessage,
               style: const TextStyle(color: Colors.white),
             ),
-           
           ],
         ),
       ),
